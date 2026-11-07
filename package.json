@@ -1,0 +1,20 @@
+{
+  "name": "openmockup",
+  "version": "0.0.1",
+  "description": "Local-first PSD Smart Object mockup generator powered by Photopea",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "check": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts"
+  },
+  "keywords": ["photopea", "psd", "mockup", "smart-object", "typescript", "vite"],
+  "author": "malkichee-tech",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  }
+}
